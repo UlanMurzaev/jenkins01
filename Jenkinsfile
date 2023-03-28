@@ -1,14 +1,9 @@
-peline{
-
+peline {
  agent any
-
-
  stages {
-
   stage('Build') {
-
    steps {
-    sh 'docker build -t mintemir/awesome-cat-front:latest .'
+       sh 'docker build -t mintemir/awesome-cat-front:latest .'
    }
   }
  } 
